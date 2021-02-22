@@ -1,6 +1,11 @@
 import csv
 
+titles = set()
+
 with open("Favorite TV Shows - Form Responses.csv","r") as file:
     reader = csv.DictReader(file)
     for row in reader:
-        print(row["title"])
+        titles.add(row["title"])
+
+for title in titles:
+    print(title)
