@@ -7,5 +7,5 @@ with open("Favorite TV Shows - Form Responses.csv","r") as file:
     for row in reader:
         titles.add(row["title"])
 
-for title in titles:
+for title in sorted(titles)
     print(title)
