@@ -10,8 +10,6 @@ with open("favorites.csv","r") as file:
             titles[title] = 0
         titles[title] += 1
 
-def f(title):
-    return titles[title]
 
-for title in sorted(titles,key=f,reverse=True):
+for title in sorted(titles,key=lambda title:titles[title],reverse=True):
     print(title,titles[title])
