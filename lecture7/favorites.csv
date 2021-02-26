@@ -1,7 +1,5 @@
-title,genre
-Avatar: The Last Airbender,Cartoon
-THe Office, Comedy
-The Office, "Drama,Comedy"
-Breaking Bad, "Thriller, Drama, Crime"
-
-
+title,genres
+Avatar,Cartoon
+Breaking bad,"Crime, Drama, Thriller"
+The office,"Comedy, Romance, Drama"
+Friends,Comedy
